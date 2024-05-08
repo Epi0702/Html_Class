@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>서비스 이름</title>
+</head>
+<body>
+<!--
+데이터를 URL로 보내고싶으면 GET 사용
+데이터를 숨겨서 보내고싶으면 POST 사용
+-->
+<h1>서비스 이름</h1>
+<section>
+    <h2>회원가입</h2>
+
+    <form action="" method="get">
+        <label for="user-email">이메일</label>
+        <input type="email" id="user-email" name="email">
+
+        <label for="user-password">비밀번호</label>
+        <input type="password" id="user-password" name="password">
+
+        <fieldset>
+            <legend>성별</legend>
+            <label for="user-male">남</label>
+            <input type="radio" id="user-male" name="gender" value="male">
+            <label for="user-female">여</label>
+            <input type="radio" id="user-female" name="gender" value="female">
+            <label for="user-nothing">선택안함</label>
+            <input type="radio" id="user-nothing" name="gender" value="nothing">
+        </fieldset>
+
+        <fieldset>
+            <legend>사용기술</legend>
+            <label for="lang-html">HTML</label>
+            <input type="checkbox" id ="lang-html" name="html">
+            <label for="lang-css">css</label>
+            <input type="checkbox" id ="lang-css" name="css">
+            <label for="lang-javascript">javascript</label>
+            <input type="checkbox" id ="lang-javascript" name="javascript">
+        </fieldset>
+
+        <button>회원가입</button>
+    </form>
+
+
+</section>
+<!--
+http://localhost:63342/Ormy5/014.html?email=rnqhsrhkd%40gmail.com&password=12314&gender=male&html=on&css=on
+
+https://www.urlencoder.org/ko/
+인코딩: 원하는 방식으로 문자열을 변경
+디코딩: 원본 복구
+-->
+</body>
+</html>

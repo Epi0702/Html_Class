@@ -1,34 +1,31 @@
 @import url('https://webfontworld.github.io/gmarket/GmarketSans.css');
 @import url('https://webfontworld.github.io/tvn/EnjoyStories.css');
+@import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
 
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
 
-body
-{
-    background-color : #5B2386;
+body {
+    background-color: #5B2386;
 }
-.page
-{
+
+.page {
     display: flex;
     flex-direction: column;
     align-items: center;
 
     margin-top: 138px;
 }
-.logoContents
-{
+
+.logoSection {
     position: relative;
 
     width: 564px;
     height: 265px;
 }
-
-.logo
-{
+.logo {
     position: relative;
 
     width: 564px;
@@ -36,19 +33,16 @@ body
 
     top: 74px;
 }
-
-.logo_bg
-{
+.logoBg {
     position: absolute;
     left: 152px;
 
     width: 261px;
     height: 265px;
-
 }
 
-.firstPhrases
-{
+
+.catchPhrase {
     font-family: 'EnjoyStories', serif;
     font-size: 36px;
     color: #F5DF4D;
@@ -56,8 +50,8 @@ body
     font-weight: 700;
 }
 
-.introductionContents
-{
+
+.introductionSection {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -65,11 +59,8 @@ body
 
     margin-top: 78px;
     width: 493px;
-    height: 99px;
 }
-
-.introductionPhrase
-{
+.introductionPhrase {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -86,39 +77,32 @@ body
 
     gap: 18px;
 }
-
-.introductionPhrase   Strong
-{
+.introductionPhrase Strong {
     font-weight: 700;
     font-size: 24px;
 
     gap: 24px;
 }
-
-.introductionPhraseQuotation
-{
+.introductionPhraseQuotation {
     position: absolute;
-
 
     top: 13px;
     width: 493px;
     height: 96px;
 }
 
-.blankContent
-{
+
+.inputFieldSection {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
 
     margin-top: 78px;
-    width: 765px;
-    height: 141px;
+    width: 800px;
 }
 
-.blankPhrase
-{
+.inputFieldPhrase {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -128,25 +112,187 @@ body
     font-size: 24px;
     color: white;
     font-weight: 400;
+
+    gap: 27px;
 }
 
-.blankText
-{
-    align-items: center;
-
-    font-family: GmarketSans, serif;
-    font-size: 24px;
-    font-weight: 400;
-    color: #BABCBE;
-}
-
-.blankInput
-{
-    display: flex;
+.inputField {
     align-items: center;
 
     width: 228px;
     height: 57px;
     background: white;
     border-radius: 7px;
+    border: none;
+    margin-left: 17px;
+    margin-right: 17px;
+
+    /*inputText*/
+    text-align: center;
+    font-family: GmarketSans, serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    opacity: 1;
+}
+
+::placeholder {
+    font-family: GmarketSans, serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #BABCBE;
+    text-align: center;
+    opacity: 1;
+}
+
+.submitSection
+{
+    margin-top: 115px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 707px;
+}
+.submitButton {
+
+    position: relative;
+
+    width: 565px;
+    height: 66px;
+
+    border-radius: 56px;
+    border: none;
+
+    background: rgba(252, 238, 33, 1);
+}
+.submitClickIcon {
+    position: absolute;
+
+    top: 14px;
+    left: 642px;
+    width: 64px;
+    height: 72px;
+}
+
+.buttonText {
+    font-family: GmarketSans, serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+
+    color: rgba(91, 35, 134, 1);
+}
+
+.resultTextSection
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 130px;
+    width: 663px;
+}
+.resultPhrase
+{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 17px;
+}
+.resultText
+{
+    font-family: GmarketSans, serif;
+
+    height: 72px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+.resultPhrase strong
+{
+    font-weight: 700;
+    font-size: 72px;
+    text-align: center;
+    line-height: 72px;
+    vertical-align: middle;
+}
+.linkButtonSection
+{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 127px;
+}
+.goButton
+{
+    width: 356px;
+    height: 66px;
+
+    border-radius: 56px;
+    border: none;
+
+    background-color: #FCEE21;
+}
+.shareButton
+{
+    width: 191px;
+    height: 66px;
+
+    border-radius: 56px;
+    border: none;
+
+    background-color: white;
+}
+
+
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+
+    margin-top: 130px;
+
+}
+
+.copyRightContent
+{
+    margin-bottom: 73px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 79px;
+
+    gap: 20px;
+    /*background-color: white;*/
+}
+
+.companyLogo
+{
+    width: 125px;
+    height: 25px;
+}
+
+.copyRightPhrase
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyRight
+{
+    font-family: "Noto Sans KR", serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
 }

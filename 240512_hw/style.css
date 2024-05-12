@@ -1,0 +1,152 @@
+@import url('https://webfontworld.github.io/gmarket/GmarketSans.css');
+@import url('https://webfontworld.github.io/tvn/EnjoyStories.css');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color : #5B2386;
+}
+.page
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 138px;
+}
+.logoContents
+{
+    position: relative;
+
+    width: 564px;
+    height: 265px;
+}
+
+.logo
+{
+    position: relative;
+
+    width: 564px;
+    height: 112px;
+
+    top: 74px;
+}
+
+.logo_bg
+{
+    position: absolute;
+    left: 152px;
+
+    width: 261px;
+    height: 265px;
+
+}
+
+.firstPhrases
+{
+    font-family: 'EnjoyStories', serif;
+    font-size: 36px;
+    color: #F5DF4D;
+    margin-top: 46px;
+    font-weight: 700;
+}
+
+.introductionContents
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 78px;
+    width: 493px;
+    height: 99px;
+}
+
+.introductionPhrase
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+
+    align-items: center;
+    font-family: GmarketSans, serif;
+
+    width: 373px;
+    height: 85px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+
+    gap: 18px;
+}
+
+.introductionPhrase   Strong
+{
+    font-weight: 700;
+    font-size: 24px;
+
+    gap: 24px;
+}
+
+.introductionPhraseQuotation
+{
+    position: absolute;
+
+
+    top: 13px;
+    width: 493px;
+    height: 96px;
+}
+
+.blankContent
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 78px;
+    width: 765px;
+    height: 141px;
+}
+
+.blankPhrase
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: GmarketSans, serif;
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+}
+
+.blankText
+{
+    align-items: center;
+
+    font-family: GmarketSans, serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #BABCBE;
+}
+
+.blankInput
+{
+    display: flex;
+    align-items: center;
+
+    width: 228px;
+    height: 57px;
+    background: white;
+    border-radius: 7px;
+}

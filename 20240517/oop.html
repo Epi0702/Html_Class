@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+    // const me = {
+    //     name : '한재현',
+    //     address : '제주도 제주시 인다 1길',
+    //     phoneNum : '010-8000-0000',
+    //     canWalk : function(){
+    //         console.log('재현이가 걷는다.');
+    //     },
+    //     teaching : function(student){
+    //         student.levelUp();
+    //     }
+    // }
+    function Me()
+    {
+        this.name = '구본광';
+        this.address = '서울시 구로구';
+        this.phoneNum = '010-8000-0000';
+    }
+
+    Me.prototype.canWalk = function (){
+        console.log('본광이가 걷는다.');
+    }
+    Me.prototype.teaching = function (student){
+        student.levelUp();
+    }
+
+    function Ormi()
+    {
+        this.level  = 1;
+    }
+
+    Ormi.prototype.levelUp = function()
+    {
+        this.level++;
+    }
+
+</script>
+</body>
+</html>
